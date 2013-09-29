@@ -1,0 +1,21 @@
+{
+"manifest_version": 2,
+"name": "YR.NO",
+"description": "Link to yr.no",
+"version": "0.1",
+"icons": {
+"128": "yr.png"
+},
+        "app": {
+        "urls": [
+                "http://yr.no"
+                ],
+        "launch": {
+        "web_url": "http://yr.no"
+        }
+        },
+        "permissions": [
+        "unlimitedStorage",
+        "notifications"
+        ]
+}
